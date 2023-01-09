@@ -646,3 +646,984 @@ Processing by StaticPagesController#home as HTML
   Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 1408)
 Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 1701)
   [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2023-01-09 10:01:03 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 2.4ms | Allocations: 537)
+  Rendered layout layouts/application.html.erb (Duration: 53.3ms | Allocations: 34988)
+Completed 200 OK in 82ms (Views: 63.5ms | ActiveRecord: 0.0ms | Allocations: 41423)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2023-01-09 10:01:03 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 164)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1638)
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 2062)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2023-01-09 10:01:03 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 1408)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 1701)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2023-01-09 10:01:03 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.8ms | Allocations: 122)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1522)
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 1869)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2023-01-09 16:06:17 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 5.6ms | Allocations: 530)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 342)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 216)
+  Rendered layout layouts/application.html.erb (Duration: 701.6ms | Allocations: 184252)
+Completed 200 OK in 728ms (Views: 710.5ms | ActiveRecord: 0.0ms | Allocations: 190676)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2023-01-09 16:06:18 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1323)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 91)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2951)
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 3374)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2023-01-09 16:06:18 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.6ms | Allocations: 128)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 90)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 1740)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2087)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2023-01-09 16:06:18 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 995)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 90)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 2603)
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2896)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2023-01-09 16:09:02 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 2.7ms | Allocations: 537)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 336)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 217)
+  Rendered layout layouts/application.html.erb (Duration: 310.8ms | Allocations: 70825)
+Completed 200 OK in 340ms (Views: 320.7ms | ActiveRecord: 0.0ms | Allocations: 77251)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+Started GET "/static_pages/contact" for 127.0.0.1 at 2023-01-09 16:09:02 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.8ms | Allocations: 169)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 96)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 1864)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 2287)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2023-01-09 16:09:02 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.8ms | Allocations: 121)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 90)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1732)
+Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 2079)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2023-01-09 16:09:02 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1221)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 90)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 2829)
+Completed 200 OK in 5ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 3176)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2023-01-09 16:09:02 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 995)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 90)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 2603)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 2896)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/about" for 127.0.0.1 at 2023-01-09 16:13:23 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 2.3ms | Allocations: 530)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 342)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 216)
+  Rendered layout layouts/application.html.erb (Duration: 373.7ms | Allocations: 72433)
+Completed 200 OK in 402ms (Views: 383.7ms | ActiveRecord: 0.0ms | Allocations: 78859)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+Started GET "/contact" for 127.0.0.1 at 2023-01-09 16:13:24 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.8ms | Allocations: 169)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 96)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1865)
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 2288)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/help" for 127.0.0.1 at 2023-01-09 16:13:24 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.8ms | Allocations: 128)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 90)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1740)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2087)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/help" for 127.0.0.1 at 2023-01-09 16:14:42 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 2.8ms | Allocations: 537)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 341)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 217)
+  Rendered layout layouts/application.html.erb (Duration: 400.7ms | Allocations: 73132)
+Completed 200 OK in 429ms (Views: 410.3ms | ActiveRecord: 0.0ms | Allocations: 79558)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-01-09 16:14:42 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1323)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 91)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 2948)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 3371)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/about" for 127.0.0.1 at 2023-01-09 16:14:42 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 121)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 90)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 1732)
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 2079)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+Started GET "/contact" for 127.0.0.1 at 2023-01-09 16:14:42 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.5ms | Allocations: 134)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 90)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 1746)
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 2093)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-01-09 16:14:42 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 995)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 90)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 2603)
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2896)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------
+SiteLayoutTest: test_layout_links
+---------------------------------
+Started GET "/" for 127.0.0.1 at 2023-01-09 16:25:58 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 415.6ms | Allocations: 75483)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 398)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 235)
+  Rendered layout layouts/application.html.erb (Duration: 420.6ms | Allocations: 78189)
+Completed 200 OK in 450ms (Views: 430.5ms | ActiveRecord: 0.0ms | Allocations: 84614)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-01-09 16:25:58 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1070)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 127)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 59)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 2749)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 3101)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-01-09 16:25:58 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1068)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 127)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 59)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 2747)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 3098)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/help" for 127.0.0.1 at 2023-01-09 16:25:58 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 1.0ms | Allocations: 159)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 120)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 59)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 1819)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 2186)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/about" for 127.0.0.1 at 2023-01-09 16:25:58 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.8ms | Allocations: 121)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 120)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 59)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1780)
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 2127)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+Started GET "/contact" for 127.0.0.1 at 2023-01-09 16:25:58 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.7ms | Allocations: 134)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 120)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 59)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1794)
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 2141)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-01-09 16:30:32 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 349.7ms | Allocations: 75557)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 407)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 355.2ms | Allocations: 78283)
+Completed 200 OK in 387ms (Views: 365.6ms | ActiveRecord: 0.0ms | Allocations: 84709)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+Started GET "/contact" for 127.0.0.1 at 2023-01-09 16:30:33 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.9ms | Allocations: 179)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 141)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1953)
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 2379)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-01-09 16:30:33 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1004)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 2684)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 2977)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/help" for 127.0.0.1 at 2023-01-09 16:30:33 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 1.0ms | Allocations: 134)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1818)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 2165)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/about" for 127.0.0.1 at 2023-01-09 16:30:33 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.7ms | Allocations: 127)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1810)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2157)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------
+SiteLayoutTest: test_layout_links
+---------------------------------
+Started GET "/" for 127.0.0.1 at 2023-01-09 16:30:33 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 1001)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 2681)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 2974)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/help" for 127.0.0.1 at 2023-01-09 16:42:29 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 2.5ms | Allocations: 550)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 431)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 243)
+  Rendered layout layouts/application.html.erb (Duration: 379.1ms | Allocations: 73626)
+Completed 200 OK in 406ms (Views: 388.0ms | ActiveRecord: 0.0ms | Allocations: 80052)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-01-09 16:42:29 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1333)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 135)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 3036)
+Completed 200 OK in 7ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3458)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-01-09 16:42:29 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1001)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 2681)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 2974)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+Started GET "/contact" for 127.0.0.1 at 2023-01-09 16:42:29 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.6ms | Allocations: 140)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1824)
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2171)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/about" for 127.0.0.1 at 2023-01-09 16:42:29 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 1.2ms | Allocations: 127)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 1810)
+Completed 200 OK in 6ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 2157)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------
+SiteLayoutTest: test_layout_links
+---------------------------------
+Started GET "/" for 127.0.0.1 at 2023-01-09 16:42:29 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 1001)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 2681)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 2974)
+Started GET "/contact" for 127.0.0.1 at 2023-01-09 16:42:29 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 1692)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 1985)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+Started GET "/contact" for 127.0.0.1 at 2023-01-09 16:54:38 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 2.2ms | Allocations: 555)
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 433)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 243)
+  Rendered layout layouts/application.html.erb (Duration: 378.0ms | Allocations: 73679)
+Completed 200 OK in 404ms (Views: 386.9ms | ActiveRecord: 0.0ms | Allocations: 80120)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/about" for 127.0.0.1 at 2023-01-09 16:54:38 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.9ms | Allocations: 166)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 141)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 1940)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 2363)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/help" for 127.0.0.1 at 2023-01-09 16:54:38 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.7ms | Allocations: 134)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1818)
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 2165)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-01-09 16:54:38 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1244)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 119)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2915)
+Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 3261)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-01-09 16:54:38 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1018)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 119)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 2689)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 2982)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+UsersControllerTest: test_should_get_new
+----------------------------------------
+Started GET "/signup" for 127.0.0.1 at 2023-01-09 16:54:38 +0900
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 170)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 166)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 72)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2038)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 3001)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------
+SiteLayoutTest: test_layout_links
+---------------------------------
+Started GET "/" for 127.0.0.1 at 2023-01-09 16:54:38 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1021)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 119)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 2692)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 3008)
+Started GET "/contact" for 127.0.0.1 at 2023-01-09 16:54:38 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 1692)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 1985)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------
+SiteLayoutTest: test_layout_links
+---------------------------------
+Started GET "/" for 127.0.0.1 at 2023-01-09 16:57:04 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 358.7ms | Allocations: 75874)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 243)
+  Rendered layout layouts/application.html.erb (Duration: 363.3ms | Allocations: 78533)
+Completed 200 OK in 390ms (Views: 373.0ms | ActiveRecord: 0.0ms | Allocations: 84974)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+UsersControllerTest: test_should_get_new
+----------------------------------------
+Started GET "/signup" for 127.0.0.1 at 2023-01-09 16:57:04 +0900
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 169)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 166)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 72)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 2037)
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 3001)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-01-09 16:57:04 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1101)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 120)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 2789)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 3141)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+Started GET "/contact" for 127.0.0.1 at 2023-01-09 16:57:04 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.9ms | Allocations: 171)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 1855)
+Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 2222)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/help" for 127.0.0.1 at 2023-01-09 16:57:04 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 1.1ms | Allocations: 134)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1818)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 2165)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/about" for 127.0.0.1 at 2023-01-09 16:57:04 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 1.1ms | Allocations: 127)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1810)
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 2157)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-01-09 16:57:04 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1018)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 119)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 2689)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 2982)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+Started GET "/contact" for 127.0.0.1 at 2023-01-09 16:58:35 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 2.8ms | Allocations: 555)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 433)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 243)
+  Rendered layout layouts/application.html.erb (Duration: 412.8ms | Allocations: 73645)
+Completed 200 OK in 439ms (Views: 421.8ms | ActiveRecord: 0.0ms | Allocations: 80086)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/about" for 127.0.0.1 at 2023-01-09 16:58:35 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.9ms | Allocations: 166)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 141)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1940)
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 2363)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/help" for 127.0.0.1 at 2023-01-09 16:58:35 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.7ms | Allocations: 134)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1818)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 2165)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-01-09 16:58:35 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1244)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 119)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 2915)
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 3261)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-01-09 16:58:35 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 1018)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 119)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 2689)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 2982)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+UsersControllerTest: test_should_get_new
+----------------------------------------
+Started GET "/signup" for 127.0.0.1 at 2023-01-09 16:58:35 +0900
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 169)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 166)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 72)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 2037)
+Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 3000)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------
+SiteLayoutTest: test_layout_links
+---------------------------------
+Started GET "/" for 127.0.0.1 at 2023-01-09 16:58:35 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1021)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 119)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 2692)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 3008)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/help" for 127.0.0.1 at 2023-01-09 16:59:52 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 2.7ms | Allocations: 550)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 426)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 243)
+  Rendered layout layouts/application.html.erb (Duration: 315.5ms | Allocations: 73792)
+Completed 200 OK in 340ms (Views: 324.2ms | ActiveRecord: 0.0ms | Allocations: 80234)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-01-09 16:59:52 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1355)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 120)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 3043)
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 3465)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+Started GET "/contact" for 127.0.0.1 at 2023-01-09 16:59:52 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.9ms | Allocations: 140)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 1824)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 2171)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/about" for 127.0.0.1 at 2023-01-09 16:59:52 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.7ms | Allocations: 127)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1810)
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2157)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-01-09 16:59:52 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1018)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 119)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 2689)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 2982)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+UsersControllerTest: test_should_get_new
+----------------------------------------
+Started GET "/signup" for 127.0.0.1 at 2023-01-09 16:59:52 +0900
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 169)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 166)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 72)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 2037)
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 3000)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------
+SiteLayoutTest: test_layout_links
+---------------------------------
+Started GET "/" for 127.0.0.1 at 2023-01-09 16:59:52 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1021)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 119)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 2692)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 3008)
+Started GET "/contact" for 127.0.0.1 at 2023-01-09 16:59:52 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 1692)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 1985)
+Started GET "/signup" for 127.0.0.1 at 2023-01-09 16:59:52 +0900
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 1692)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 1985)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
